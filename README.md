@@ -10,7 +10,7 @@ sh <(curl -L https://github.com/justindhillon/unfuck-linux/reinstall_packages.sh
 
 ## Supported package managers
 
-- npm
+- apt
 - dnf
 - pip
 - npm
