@@ -5,7 +5,7 @@ Did you `sudo rm -rf` somthing important like `python`, `grub`, or half your sys
 The command below scans your system for all your package managers, and then uses them to reinstall all the packages on your system. 
 
 ```bash
-sh <(curl -L https://raw.githubusercontent.com/justindhillon/unfuck-linux/main/reinstall_packages.sh)
+sudo sh <(curl -L https://raw.githubusercontent.com/justindhillon/unfuck-linux/main/reinstall_packages.sh)
 ```
 
 ## Supported package managers
@@ -14,8 +14,6 @@ sh <(curl -L https://raw.githubusercontent.com/justindhillon/unfuck-linux/main/r
 - dnf
 - pip
 - npm
-- brew
-- flatpak
 
 ## Contributing
 
